@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ConnectDeploy-Web:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ConnectDeploy_Web_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ConnectDeploy-Web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="application" name="Ant" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ConnectDeploy-Web/web/Web" />
+    </root>
+  </artifact>
+</component>
