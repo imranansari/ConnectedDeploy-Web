@@ -1,15 +1,5 @@
-<% include '/WEB-INF/includes/header.gtpl' %>
-
-<h1>Welcome</h1>
-
-<p>
-    Congratulations, you've just created your first 
-    <a href="http://gaelyk.appspot.com">Gaelyk</a> application.
-</p>
-
-<p>
-    Click <a href="datetime.groovy">here</a> to view the current date/time.
-</p>
-
-<% include '/WEB-INF/includes/footer.gtpl' %>
-
+<?xml version='1.0' encoding='utf-8' ?> 
+<Response>
+	<Say>Welcome to your new Twilio Account.</Say>
+	<Say voice='woman'>Let us know if we can help you in any way during your development.</Say>
+</Response>
