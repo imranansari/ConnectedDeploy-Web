@@ -12,3 +12,4 @@ get "/failure", forward: "/failure.gtpl"
 
 //routes for json services
 get "/buildrequest", forward : "/WEB-INF/groovy/buildrequest.groovy"
+post "/buildrequestphone", forward : "/WEB-INF/groovy/buildrequest_twilio.groovy"

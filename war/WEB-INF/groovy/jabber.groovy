@@ -27,4 +27,9 @@ if (xmpp.getPresence(recipient).isAvailable()) {
   def status = xmpp.send(to: recipient, body: "your build request for " + cmd[1] + " was accepted")
   assert status.isSuccessful()
 
+  if ("now".equalsIgnoreCase(cmd[2])) {
+    OutgoingCall outgoingCall = new OutgoingCall();
+    outgoingCall.callContact(cmd[1]);
+  }
+
 }

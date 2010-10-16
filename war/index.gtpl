@@ -3,7 +3,7 @@
 <h1>Welcome</h1>
 
 <p>
-    Congratulations, you've just created your first 
+    Congratulations, you've just created your first
     <a href="http://gaelyk.appspot.com">Gaelyk</a> application.
 </p>
 
