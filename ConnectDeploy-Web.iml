@@ -9,7 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/war" relative="/" />
         </webroots>
-        <context-artifact name="ConnectDeploy-Web:war exploded" />
       </configuration>
       <facet type="google-app-engine" name="Google App Engine">
         <configuration>

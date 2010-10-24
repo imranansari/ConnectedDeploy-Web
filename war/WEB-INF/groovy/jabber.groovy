@@ -4,9 +4,6 @@ def messageRecieved = "Received message from ${message.from} with body ${message
 
 log.info messageRecieved
 
-//command
-//build(cmd) hibernate(project) now(optional urgency)
-//lastbuild(cmd) hibernate(project)
 
 String recipient = message.from
 def cmd = message.body.split(" ");
