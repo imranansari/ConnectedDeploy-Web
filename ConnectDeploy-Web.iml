@@ -27,9 +27,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="lib" level="project" />
-    <orderEntry type="library" name="groovy1.7.0" level="application" />
-    <orderEntry type="library" name="Ant" level="application" />
     <orderEntry type="library" name="lib" level="project" />
+    <orderEntry type="library" exported="" scope="PROVIDED" name="AppEngine Dev" level="application_server_libraries" />
   </component>
 </module>
 
